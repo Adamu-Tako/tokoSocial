@@ -1,0 +1,39 @@
+.create-container{
+  display: grid;
+  place-items: center;
+  width: auto;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 9;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background: var(--appColor);
+  padding:2rem;
+  color: white;
+}
+
+form > div{
+  margin: 1rem 0;
+  padding: auto;
+}
+
+form > .btn{
+  width: fit-content;
+}
+
+form > .btn > input{
+  width: 100px;
+  background: none;
+}
+
+form > img {
+  width: auto;
+}

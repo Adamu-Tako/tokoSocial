@@ -1,0 +1,43 @@
+import  { FaHome } from 'react-icons/fa';
+import  { MdExplore } from 'react-icons/md';
+import  { MdNotifications } from 'react-icons/md';
+import  { SiGooglemessages } from 'react-icons/si';
+import  { BsFillBookmarksFill } from 'react-icons/bs';
+import  { SiGoogleanalytics } from 'react-icons/si';
+import  { BsFillPaletteFill } from 'react-icons/bs';
+import  { FcSettings } from 'react-icons/fc';
+
+export const menuItems =  [
+  {
+    icon: FaHome,
+    text: 'Home'
+  },
+  {
+    icon: MdExplore,
+    text: 'Explore'
+  },
+  {
+    icon: MdNotifications,
+    text: 'Notifications'
+  },
+  {
+    icon: SiGooglemessages,
+    text: 'Messages'
+  },
+  {
+    icon: BsFillBookmarksFill,
+    text: 'Bookmarks'
+  },
+  {
+    icon: SiGoogleanalytics,
+    text: 'Analytics'
+  },
+  {
+    icon: BsFillPaletteFill,
+    text: 'Theme'
+  },
+  {
+    icon: FcSettings,
+    text: 'Settingss'
+  },
+]

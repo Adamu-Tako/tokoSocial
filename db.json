@@ -1,0 +1,135 @@
+{
+  "posts": [
+    {
+      "image": "http://res.cloudinary.com/dye8ruhut/image/upload/v1662498637/rht15vmscyxv5mtrfwko.jpg",
+      "text": "Green",
+      "id": 1
+    },
+    {
+      "image": "http://res.cloudinary.com/dye8ruhut/image/upload/v1662498677/gy9lvcwk1rq01m3ssz2d.jpg",
+      "text": "Blue",
+      "id": 2
+    },
+    {
+      "image": "https://res.cloudinary.com/dye8ruhut/image/upload/v1662498150/dilsfu5qlshycfnrvswi.jpg",
+      "text": "I love my GF",
+      "id": 3
+    },
+    {
+      "image": "https://res.cloudinary.com/dye8ruhut/image/upload/v1660599161/cld-sample-5.jpg",
+      "text": "Cloudinary Sample 5",
+      "id": 4
+    },
+    {
+      "image": "https://res.cloudinary.com/dye8ruhut/image/upload/v1660599161/cld-sample-4.jpg",
+      "text": "Cloudinary Sample 4",
+      "id": 5
+    },
+    {
+      "image": "https://res.cloudinary.com/dye8ruhut/image/upload/v1660599160/cld-sample-3.jpg",
+      "text": "Cloudinary Sample 3",
+      "id": 6
+    }
+  ],
+  "postLikes": [
+    {
+      "users": [
+        "08d239cf-cb2a-4dca-a3fc-f1f91f170f07",
+        "437b169e-3d7f-4fa7-acc1-fae673023451"
+      ],
+      "postId": 1,
+      "id": 1
+    },
+    {
+      "users": [
+        "08d239cf-cb2a-4dca-a3fc-f1f91f170f07",
+        "437b169e-3d7f-4fa7-acc1-fae673023451"
+      ],
+      "postId": 2,
+      "id": 2
+    },
+    {
+      "users": [
+        "08d239cf-cb2a-4dca-a3fc-f1f91f170f07"
+      ],
+      "postId": 3,
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "postId": "1",
+      "fName": "Muhammad Adamu",
+      "comment": "nice odointoic farm",
+      "id": 1
+    },
+    {
+      "postId": "1",
+      "fName": "Muhammad Adamu",
+      "comment": "nice odointoic farm",
+      "id": 2
+    },
+    {
+      "postId": "1",
+      "fName": "Muhammad Adamu",
+      "comment": "nice odointoic farm",
+      "id": 3
+    },
+    {
+      "postId": "2",
+      "fName": "Muhammad Adamu",
+      "comment": "nice odointoic farm",
+      "id": 4
+    },
+    {
+      "postId": "3",
+      "comment": "geahkjdlnskm",
+      "fName": "Muhammad Adamu",
+      "id": 5
+    }
+  ],
+  "profile": [
+    {
+      "username": "Salihu",
+      "name": "Salihu Kutiriko",
+      "email": "salihuK@gmail.com",
+      "password": "123456",
+      "userId": "6d5188a2-22c6-40a6-86e8-459f67e502af",
+      "id": 1
+    },
+    {
+      "username": "AdamuTako",
+      "name": "Adamu Tako Musa",
+      "email": "amusatako@gmail.com",
+      "password": "123456",
+      "userId": "437b169e-3d7f-4fa7-acc1-fae673023451",
+      "id": 2
+    },
+    {
+      "username": "abba",
+      "name": "abba mahmud",
+      "email": "abba2004@gmail.com",
+      "password": "123456",
+      "userId": "a27e0b9e-a4b4-4a4c-8265-9a81ea9cb8c7",
+      "id": 3
+    },
+    {
+      "username": "Jhunyour",
+      "name": "Muhammad Adamu",
+      "email": "jhunyour@gmail.com",
+      "password": "123456",
+      "userId": "08d239cf-cb2a-4dca-a3fc-f1f91f170f07",
+      "profilePicture": "http://res.cloudinary.com/dye8ruhut/image/upload/v1662558070/cq8kvgmd8wonm9fwis4j.jpg",
+      "id": 4
+    },
+    {
+      "username": "AbuSadiq",
+      "name": "Abdullahi Abubakar Sadiq",
+      "email": "abusadiq188@gmail.com",
+      "password": "123456",
+      "userId": "6fb48b39-87de-43d4-bfd3-2bb3b9057224",
+      "profilePicture": "",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+.sidebar{
+  position: fixed;
+  top: 4rem;
+  color: black;
+  margin: 1rem 2rem 04rem 0rem;
+  width: 18vw;
+  height:550px ;
+  overflow-y: scroll;
+}
+
+.sidebar> .profile{
+  background: var(--color-white);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: var(--card-padding);
+  border-radius: var(--card-border-radius);
+}
+
+.menu > .menu-item{
+  display: flex;
+  align-items: center;
+   background: var(--color-white);
+  display: flex;
+  padding: var(--card-padding);
+  border-radius: var(--card-border-radius);
+  margin-top: 0.5rem;
+}
+
+.menu > .menu-item > h3{
+  margin: auto;
+}
+
+.sidebar > .btn{
+  position: relative;
+  margin-top: 1rem;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,75 @@
+main{
+  position: absolute;
+  left: 30vw;
+  top: 5rem;
+}
+
+main > .search-bar{
+  background-color: var(--color-white);
+}
+
+main > .post{
+  margin: 1.5rem 0;
+  max-width: 50vw;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--card-border-radius);
+}
+
+.post > .profile{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem;
+}
+
+.profile > .proffile-name{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 210px;
+}
+
+.post > .post-body > img {
+  position: relative;
+}
+
+.post > .post-body > .post-icons {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post > .post-body > .post-icons > div {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+
+}
+
+.post > .post-body > .post-text{
+  padding: var(--card-padding);
+}
+
+.post > .comment-box{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.post > .comment-box > :nth-child(2){
+  background: var(--color-light);
+  border-radius: var(--bordr-radius);
+  padding: var(--search-padding);
+  margin: .5rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post > .comment-box > :nth-child(2) > input{
+  background: transparent;
+}

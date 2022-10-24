@@ -1,0 +1,116 @@
+.r-commy{
+  position: absolute;
+  width: auto;
+  background-color: var(--color-white);
+  left: 25vw;
+  top: 2rem;
+  width: 50%;
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
+}
+
+.comment-r {
+  height: fit-content;
+  border-radius: var(--card-border-radius);
+  background-color: var(--color-white);
+}
+
+
+.comment-r > .post{
+  margin: 1.5rem 0;
+  max-width: 50vw;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--card-border-radius);
+}
+
+.comment-r > .profile{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem;
+}
+
+.profile > .proffile-name{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 210px;
+}
+
+.comment-r > .post-body > img {
+  position: relative;
+}
+
+.comment-r > .post-body > .post-icons {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-r > .post-body > .post-icons > div {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+
+}
+
+.comment-r > .post-body > .post-text{
+  padding: var(--card-padding);
+}
+
+.comment-r > .comment-box{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.comment-r > .comment-box > :nth-child(2){
+  background: var(--color-light);
+  border-radius: var(--bordr-radius);
+  padding: var(--search-padding);
+  margin: .5rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-r > .comment-box > :nth-child(2) > input{
+  background: transparent;
+}
+
+.r-commy > .comment-tray {
+  display: flex;
+  margin: 0.5rem;
+
+}
+
+.r-commy > div > .comment-slide{
+  width: 90%;
+  height: 4rem;
+  background-color: var(--color-light);
+  border-radius: var(--card-border-radius);
+  /* margin: 0.5rem; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content:left;
+}
+
+.r-commy > div > .comment-slide > div{
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  padding: var(--search-padding);
+}
+
+.r-commy > div > .comment-slide > :last-child{
+  padding-left: 1rem;
+}
+
+.r-commy > div > .comment-slide > :first-child{
+  padding: var(--search-padding);
+}
